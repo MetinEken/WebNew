@@ -18,3 +18,18 @@
 {
 
 }
+.tags li{
+
+	list-style: none;
+	display: inline-block;
+	margin-right: 30px;
+}
+
+.tags{
+	margin: 0;
+	padding: 0;
+
+}
+.tags li a{
+	text-decoration: none;
+}
