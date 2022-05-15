@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Transition</title>
+</head>
+<style>
+#card{
+ width: 150px;
+ height: 150px;
+ background-color: aqua;
+ margin-bottom: 10px;
+ transition: width 3s, background 3s;
+
+ 
+
+ 
+}
+#card:hover{
+background-color: brown;
+width: 350px;
+}
+
+.car1{
+ transition-timing-function: ease;
+}
+.car2{
+ transition-timing-function: linear;
+}
+
+.car3{
+ transition-timing-function: ease-in;
+}
+.car4{
+ transition-timing-function: ease-out;
+}
+.car5{
+ transition-timing-function: ease-in-out;
+}
+
+</style>
+
+<body>
+<div id="card" class="car1"></div>
+<div id="card" class="car2"></div>
+<div id="card" class="car3"></div>
+<div id="card" class="car4"></div>
+<div id="card" class="car5"></div>
+ 
+</body>
+</html>
