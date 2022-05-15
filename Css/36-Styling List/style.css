@@ -1,0 +1,22 @@
+ul{
+ list-style: none;
+ background-color: antiquewhite;
+ padding: 0px;
+}
+
+ol{
+ list-style: none;
+ background-color: ghostwhite;
+ padding: 0px;
+}
+
+
+ul li{
+ padding-left: 20px;
+ padding-top: 10px;
+ 
+}
+
+.lastLi{
+ padding-bottom: 10px;
+}
