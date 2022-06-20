@@ -1,0 +1,57 @@
+*{
+ margin: 0px;
+ box-sizing: border-box;
+}
+
+body{
+
+ background-color: beige;
+}
+
+#container{
+ width: 1200px;
+ margin: 20px auto;
+}
+
+#blog-box{
+ width: 75%;
+ background-color: aquamarine;
+ float: left;
+ position: relative;
+}
+
+#blog-info{
+position: relative;
+
+}
+#blog-info-box{
+ margin-left: 5px;
+ width: 25%;
+float: right;
+background-color: chartreuse;
+}
+#blog-info-box ul{
+  list-style-type: none;
+}
+#blog-info-box ul li{
+  padding: 5px;
+}
+#blog-box img{
+ width: 100%;
+}
+  p{
+ padding: 10px;
+ margin: 10px;
+
+}
+h2{
+margin: 20px;
+}
+
+.date {
+  position: absolute;
+right: 30px;
+bottom: 5px;
+font-size: 12px;
+color: rgb(94, 80, 80);
+}
